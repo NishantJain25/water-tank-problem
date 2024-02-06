@@ -3,6 +3,7 @@ import "./App.css";
 import Tank from "./components/tank/tank";
 import {BsGithub, BsLinkedin} from 'react-icons/bs' 
 import { MdMail } from "react-icons/md";
+import { TbFileCv } from "react-icons/tb";
 
 function App() {
   const [waterLevel, setWaterLevel] = useState({
@@ -95,7 +96,10 @@ function App() {
           <a href="https://github.com/NishantJain25"><BsGithub />Github</a>
         </div>
         <div className="social-btn">
-          <a href="https://www.linkedin.com/in/nishantdjain/"><MdMail />nishantjain2503@gmail.com</a>
+          <a href="mailto:nishantjain2503@gmail.com"><MdMail />nishantjain2503@gmail.com</a>
+        </div>
+        <div className="social-btn">
+          <a href="https://drive.google.com/file/d/1vtMpgM734gOkfS-2Zv5rGRJq6baVzniw/view?usp=sharing" target="_blank"><TbFileCv />View CV</a>
         </div>
       </div>
       <div className="container">
