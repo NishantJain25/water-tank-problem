@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 import Tank from "./components/tank/tank";
+import {BsGithub, BsLinkedin} from 'react-icons/bs' 
+import { MdMail } from "react-icons/md";
 
 function App() {
   const [waterLevel, setWaterLevel] = useState({
@@ -82,7 +84,20 @@ function App() {
     <div className="App">
       <header>
         <p id="title">Water Tank Challenge</p>
+        <p id="subtitle">By Nishant Jain</p>
       </header>
+      <div className="socials">
+        <p>Connect with me on - </p>
+        <div className="social-btn">
+          <a href="https://www.linkedin.com/in/nishantdjain/"><BsLinkedin />LinkedIn</a>
+        </div>
+        <div className="social-btn">
+          <a href="https://github.com/NishantJain25"><BsGithub />Github</a>
+        </div>
+        <div className="social-btn">
+          <a href="https://www.linkedin.com/in/nishantdjain/"><MdMail />nishantjain2503@gmail.com</a>
+        </div>
+      </div>
       <div className="container">
         <div className="row">
           <Tank
