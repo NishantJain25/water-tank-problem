@@ -1,0 +1,38 @@
+.tank-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+button{
+    height: 30px;
+    margin: 0 20px;
+    border: 2px solid;
+    border-radius: 5px;
+}
+.add-btn{
+    background-color: green;
+    color: white;
+    border-color: green;
+}
+.empty-btn{
+    background-color: transparent;
+    color: red;
+    border-color: red;
+}
+.tank{
+    margin-top: 50px;
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: transparent;
+    overflow: hidden;
+    display: flex;
+    align-items: end;
+}
+.water{
+    width: 100%;
+    border: 2px solid rgb(0, 117, 185);
+    background-color: rgb(1, 162, 255);
+    transition: height 0.5s ease;
+}
