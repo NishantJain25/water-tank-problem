@@ -4,6 +4,7 @@ import Tank from "./components/tank/tank";
 import {BsGithub, BsLinkedin} from 'react-icons/bs' 
 import { MdMail } from "react-icons/md";
 import { TbFileCv } from "react-icons/tb";
+import { CiGlobe } from "react-icons/ci";
 
 function App() {
   const [waterLevel, setWaterLevel] = useState({
@@ -90,6 +91,9 @@ function App() {
       <div className="socials">
         <p>Connect with me on - </p>
         <div className="social-btn">
+          <a href="https://nishantjain.netlify.app"><CiGlobe />Nishant Jain</a>
+        </div>
+        <div className="social-btn">
           <a href="https://www.linkedin.com/in/nishantdjain/"><BsLinkedin />LinkedIn</a>
         </div>
         <div className="social-btn">
@@ -99,7 +103,7 @@ function App() {
           <a href="mailto:nishantjain2503@gmail.com"><MdMail />nishantjain2503@gmail.com</a>
         </div>
         <div className="social-btn">
-          <a href="https://drive.google.com/file/d/1vtMpgM734gOkfS-2Zv5rGRJq6baVzniw/view?usp=sharing" target="_blank"><TbFileCv />View CV</a>
+          <a href="https://drive.google.com/file/d/1ytoPymznl9FUwYM2hYP64UjrK3S150g0/view?usp=sharing" target="_blank"><TbFileCv />View CV</a>
         </div>
       </div>
       <div className="container">
