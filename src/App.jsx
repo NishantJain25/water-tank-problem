@@ -103,7 +103,7 @@ function App() {
           <a href="mailto:nishantjain2503@gmail.com"><MdMail />nishantjain2503@gmail.com</a>
         </div>
         <div className="social-btn">
-          <a href="https://drive.google.com/file/d/1ytoPymznl9FUwYM2hYP64UjrK3S150g0/view?usp=sharing" target="_blank"><TbFileCv />View CV</a>
+          <a href="https://drive.google.com/file/d/1zRlCLFG27MdemoYcKG_Q3Z93jkOXCng9/view?usp=sharing" target="_blank"><TbFileCv />View CV</a>
         </div>
       </div>
       <div className="container">
